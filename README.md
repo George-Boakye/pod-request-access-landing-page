@@ -29,13 +29,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./assets/pod-ss.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [github](https://github.com/Mistok98/pod-request-access-landing-page)
+- Live Site URL: [Add live site URL here](https://xenodochial-bhabha-c736d3.netlify.app/)
 
 ## My process
 
