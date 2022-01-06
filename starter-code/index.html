@@ -1,48 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  
-  <title>Frontend Mentor | Pod request access landing page</title>
-</head>
-<body>
-  <main>
-    <div class="logo">
-      <img src="./assets/desktop/logo.svg" alt="">
-    </div>
-    <section class="left-section">
-      <div>
-        <h1>Publish your podcasts <span style="color: #ffffff;">everywhere.</span> </h1>
-        <p>
-          Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, 
-        Apple Podcasts, Google Podcasts, Pocket Casts and more!
-        </p> 
-        <div class="subscribe">
-          <form class="search-wrapper cf">
-            <input type="email" placeholder="Email address" required style="box-shadow: none">
-            <button type="submit">Request Access</button>
-        </form>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chivo:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Pod request access landing page</title>
+  </head>
+  <body>
+    <main>
+      <div class="logo">
+        <img src="./assets/desktop/logo.svg" alt="" />
+      </div>
+      <section class="left-section">
+        <div>
+          <h1>
+            Publish your podcasts
+            <span style="color: #ffffff">everywhere.</span>
+          </h1>
+          <p>
+            Upload your audio to Pod with a single click. We’ll then distribute
+            your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket
+            Casts and more!
+          </p>
+          <div class="subscribe">
+            <form class="search-wrapper cf">
+              <input
+                type="email"
+                name="email"
+                placeholder="Email address"
+                required
+                style="box-shadow: none"
+              />
+              <button type="submit">Request Access</button>
+              <span class="errorMsg">Oops! Please check your email</span>
+            </form>
+          </div>
+          <div class="podcasts" style="margin-top: 35px">
+            <img src="./assets/desktop/spotify.svg" alt="" />
+            <img src="./assets/desktop/apple-podcast.svg" alt="" />
+            <img src="./assets/desktop/google-podcasts.svg" alt="" />
+            <img src="./assets/desktop/pocket-casts.svg" alt="" />
+          </div>
         </div>
-      <div class="podcasts" style=" margin-top: 35px;">
-        <img src="./assets/desktop/spotify.svg" alt="">
-        <img src="./assets/desktop/apple-podcast.svg" alt="">
-        <img src="./assets/desktop/google-podcasts.svg" alt="">
-        <img src="./assets/desktop/pocket-casts.svg" alt="">
-      </div>
-      </div>
-    
-    </section>
+      </section>
 
-    <section class="right-section">
-      <figure></figure>
-    </section>
-    <img src="./assets/desktop/bg-pattern-dots.svg" alt="">
-  </main>
-
-</body>
+      <section class="right-section">
+        <figure></figure>
+      </section>
+      <img src="./assets/desktop/bg-pattern-dots.svg" alt="" />
+    </main>
+    <script src="./main.js"></script>
+  </body>
 </html>

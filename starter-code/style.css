@@ -139,3 +139,145 @@ input {
 .search-wrapper button:hover {
   background: #b3ffe2;
 }
+span.errorMsg {
+  display: none;
+  position: relative;
+  top: 10px;
+  left: 20px;
+  color: red;
+}
+span.showError {
+  display: block;
+}
+/* Tablet Devices */
+@media screen and (max-width: 768px) {
+  body {
+    width: 768px;
+    height: 1024px;
+  }
+  main {
+    position: absolute;
+    width: 768px;
+    height: 1204px;
+    left: -120px;
+    top: 5px;
+  }
+  figure {
+    background-image: url("./assets/tablet/image-host.jpg");
+    width: 491px;
+    height: 767px;
+  }
+  .left-section {
+    position: absolute;
+    top: 260px;
+    width: 705px;
+  }
+  /* .left-section div{
+        margin-top: 0;
+    } */
+  .right-section {
+    position: absolute;
+    left: 480px;
+  }
+  img[src*="bg-pattern-dots"] {
+    position: absolute;
+    width: 232px;
+    height: 104px;
+    left: 160px;
+    top: 1070px;
+  }
+  .logo {
+    position: absolute;
+    top: 50px;
+  }
+  .podcasts img {
+    width: 19%;
+  }
+  div.podcasts {
+    margin: 0;
+  }
+
+}
+/* Mobile devices */
+@media only screen and (max-width: 375px) {
+    body{
+        height: 680px;
+        width: 375px;
+        /* overflow-y: hidden; */
+    }
+    
+  main{
+    width: 375px;
+    height: 680px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+  }
+  figure{
+    background-image: url('./assets/mobile/image-host.jpg');
+  }
+  .left-section{
+      position: absolute;
+      left: 24px;
+      top: 175px;
+      height: 667px;
+      opacity: 0.7;
+      width: 327px;
+      height: 398px;
+  }
+  .right-section{
+      opacity: 0.1;
+      position: absolute;
+      left: 0;
+      top: 0;   
+  }
+  .logo{
+      position: absolute;
+      top: 62px;
+      left: 120px;
+  }
+  h1{
+      font-size:25px ;
+      line-height: 38px;
+      text-align: center;
+      width: 327px;
+      position: relative;
+      bottom: 70px;
+  }
+  p{
+      font-size: 15px;
+      line-height: 25px;
+      text-align: center;
+      position: relative;
+      bottom: 70px;
+      width: 327px;
+  }
+  .podcasts{
+      position: relative;
+      bottom: 230px;
+      left: 20px;
+      width: 327px;
+  }
+  .podcasts img{
+      width: 19%;
+      margin-right: 10px;
+  }
+  .search-wrapper{
+      position: relative;
+      bottom: 15px;
+    width: 327px;
+  }
+  .search-wrapper input{
+      margin-top: 5px;
+    width: 310px;
+  }
+  .search-wrapper button{
+      width:327px;
+      margin-top: 20px;
+  }
+  img[src*="bg-pattern-dots"]{
+      display: none;
+  }
+}
