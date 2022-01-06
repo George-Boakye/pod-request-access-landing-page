@@ -8,12 +8,11 @@ This is a solution to the [Pod request access landing page challenge on Frontend
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 
 ## Overview
 
@@ -37,7 +36,7 @@ Users should be able to:
 - Solution URL: [github](https://github.com/Mistok98/pod-request-access-landing-page)
 - Live Site URL: [Add live site URL here](https://xenodochial-bhabha-c736d3.netlify.app/)
 
-## My process
+
 
 ### Built with
 
