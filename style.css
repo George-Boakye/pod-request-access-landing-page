@@ -199,7 +199,7 @@ span.showError {
 
 }
 /* Mobile devices */
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 480px) {
     body{
         height: 680px;
         width: 375px;
@@ -210,9 +210,9 @@ span.showError {
     width: 375px;
     height: 680px;
     position: absolute;
-    top: 0;
-    left: 0;
-    overflow-x: hidden;
+    top: 0px;
+    left: 40px;
+    /* overflow-x: hidden; */
     /* overflow-y: hidden; */
   }
   figure{
